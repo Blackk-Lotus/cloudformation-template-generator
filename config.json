@@ -1,0 +1,10 @@
+
+{
+    "default_region": "us-east-1",
+    "default_instance_type": "t2.micro"
+  }
+  
+
+Usage
+
+python src/main.py

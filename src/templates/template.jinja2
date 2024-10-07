@@ -1,0 +1,10 @@
+
+AWSTemplateFormatVersion: '2010-09-09'
+Description: CloudFormation template for {{ resource_type }}
+
+Resources:
+  {{ resource_name }}:
+    Type: AWS::{{ resource_type }}::{{ resource_type }}
+    Properties:
+      # Add specific properties based on resource type here
+      # e.g., InstanceType: t2.micro for EC2
