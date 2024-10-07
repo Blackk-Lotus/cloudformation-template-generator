@@ -23,8 +23,5 @@ This project generates AWS CloudFormation templates based on user input.
    git clone https://github.com/tandav333/cloudformation-template-generator.git
    cd cloudformation-template-generator
 
-Usage
-
-python src/main.py
 
 
