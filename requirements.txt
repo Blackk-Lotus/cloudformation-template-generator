@@ -1,2 +1,13 @@
+# General AWS SDK and utilities
+boto3==1.20.0          # AWS SDK for Python
+requests==2.26.0       # HTTP requests
+jsonschema==4.4.0      # JSON validation
 
-Jinja2==3.1.2
+# For CloudFormation Template Generator
+jinja2==3.0.3          # Templating engine
+PyYAML==5.4.1          # For YAML manipulation
+click==8.0.3           # CLI for command line interfaces
+
+# Optional: Data manipulation and timezone handling
+pandas==1.3.3          # Data manipulation library
+pytz==2021.1           # Timezone handling
